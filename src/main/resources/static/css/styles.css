@@ -1,0 +1,145 @@
+body {
+    background-color: #3adaca;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.login-container, .register-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input, .register-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-form button, .register-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover, .register-form button:hover {
+    background-color: #45a049; 
+}
+
+.register-link, .login-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a, .login-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.register-link a:hover, .login-link a:hover {
+    text-decoration: underline;
+}
+
+.register-container {
+    background-color: #e0f7fa; 
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+.floating-numbers {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+    list-style-type: none;
+}
+
+.floating-numbers li {
+    margin: 0 5px;
+}
+
+.number-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383848;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.number-item.active {
+    background-color: #39d353;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383848;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border: 2px solid transparent; 
+    margin: 0;
+}
+
+.grid-item.active {
+    background-color: #39d353;
+    border: 2px solid #2d2d3a;
+}
+
+.grid-item:hover {
+    background-color: #4e4e6a;
+    border-color: #39d353; 
+}
+
+body {
+    background-color: #2d2d3a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
